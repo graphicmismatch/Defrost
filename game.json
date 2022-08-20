@@ -326,6 +326,26 @@
         "name": "sprites\\platforms\\magmaplatform9.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "audio/bgm/StartMusic.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\bgm\\StartMusic.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm/bgmfinal.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\bgm\\bgmfinal.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -357,7 +377,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0775219711190096,
+        "zoomFactor": 0.5013021141147231,
         "windowMask": false
       },
       "objectsGroups": [
@@ -386,8 +406,8 @@
           "name": "Ground",
           "persistentUuid": "d1b0af4e-f545-4891-89ea-99dd37ce39fc",
           "width": 619,
-          "x": -2,
-          "y": -329,
+          "x": 1,
+          "y": -342,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -403,7 +423,7 @@
           "width": 0,
           "x": 300,
           "y": 100,
-          "zOrder": 2,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -434,6 +454,21 @@
           "x": 266,
           "y": 291,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewParticlesEmitter",
+          "persistentUuid": "0f3ccdf0-c9d5-4639-bf91-22c658239e8b",
+          "width": 0,
+          "x": 314,
+          "y": 115,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -547,9 +582,9 @@
               "masks": 1
             },
             {
-              "maxSpeed": 500,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "maxSpeed": 500,
               "ignoreDefaultControls": true,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
@@ -594,10 +629,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 16
                       },
                       "customCollisionMask": [
                         [
@@ -2419,7 +2454,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Obstacle4",
+          "name": "Obstacle5",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2976,7 +3011,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Obstacle5",
+          "name": "Obstacle4",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -4295,9 +4330,9 @@
           "effects": [],
           "behaviors": [
             {
-              "extraBorder": 100,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
             },
             {
               "name": "Physics2",
@@ -4323,10 +4358,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -5449,25 +5484,373 @@
             {
               "name": "DestroyOutside",
               "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 30
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             },
             {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
+              "canBeGrabbed": false,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
           "animations": [
             {
-              "name": "hot1obs",
+              "name": "Obstacle3",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08330000191926956,
-                  "sprites": []
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -5528,6 +5911,51 @@
             }
           ],
           "animations": []
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 11,
+          "emitterForceMax": 85,
+          "emitterForceMin": 45,
+          "flow": 45,
+          "maxParticleNb": 300,
+          "name": "NewParticlesEmitter",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 194,
+          "particleBlue2": 255,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 227,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 80,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 15,
+          "rendererParam2": 7,
+          "rendererType": "Line",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -5581,6 +6009,18 @@
                     "RepeatTimer",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "audio\\bgm\\bgmfinal.wav",
+                    "yes",
+                    "80\n",
+                    ""
+                  ]
                 }
               ]
             }
@@ -5626,13 +6066,14 @@
             },
             {
               "type": {
-                "value": "Physics2::LinearVelocityY"
+                "value": "MettreXY"
               },
               "parameters": [
-                "Obstacle11",
-                "Physics2",
+                "NewParticlesEmitter",
                 "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                "Player.CenterX()",
+                "=",
+                "Player.CenterY()"
               ]
             }
           ]
@@ -5866,16 +6307,6 @@
                 "515",
                 "CameraBorderBottom()+100",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle11",
-                "=",
-                "103/32"
               ]
             },
             {
