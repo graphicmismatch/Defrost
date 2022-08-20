@@ -173,6 +173,159 @@
         "name": "sprites\\platforms\\waterplatform9.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/lavaplatform8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\lavaplatform8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/platforms/magmaplatform9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\platforms\\magmaplatform9.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -204,7 +357,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7100000000000013,
+        "zoomFactor": 1.0775219711190096,
         "windowMask": false
       },
       "objectsGroups": [
@@ -215,13 +368,10 @@
               "name": "Obstacle1"
             },
             {
-              "name": "Obstacle3"
+              "name": "Obstacle8"
             },
             {
-              "name": "Obstacle2"
-            },
-            {
-              "name": "Obstacle4"
+              "name": "Obstacle6"
             }
           ]
         }
@@ -231,13 +381,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 20704,
+          "height": 1216,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "d1b0af4e-f545-4891-89ea-99dd37ce39fc",
           "width": 619,
           "x": -2,
-          "y": -6575,
+          "y": -329,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -251,84 +401,9 @@
           "name": "Player",
           "persistentUuid": "95d28421-929f-4d30-9ffe-abd65133a5f9",
           "width": 0,
-          "x": 273,
-          "y": 413,
+          "x": 300,
+          "y": 100,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Obstacle",
-          "persistentUuid": "3eef0571-f95e-4975-b613-c8901d0fc808",
-          "width": 192,
-          "x": 169,
-          "y": 76,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Obstacle",
-          "persistentUuid": "2bfa13f1-0520-49c0-9a1f-97743c43078f",
-          "width": 384,
-          "x": 1,
-          "y": -64,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Obstacle",
-          "persistentUuid": "077808bc-5792-448d-aa4b-6132190d9b4c",
-          "width": 224,
-          "x": 378,
-          "y": -292,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Obstacle",
-          "persistentUuid": "9c31a729-595e-489d-ad84-2eeaff5c41c5",
-          "width": 224,
-          "x": 3,
-          "y": -687,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "Obstacle",
-          "persistentUuid": "a1de9ab1-a930-48a8-8e67-a3060bae2586",
-          "width": 224,
-          "x": 398,
-          "y": -693,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -359,96 +434,6 @@
           "x": 266,
           "y": 291,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 104.99539184570312,
-          "layer": "",
-          "name": "Obstacle2",
-          "persistentUuid": "06aca6d7-bc20-45cd-976d-fb94716de348",
-          "width": 102.639404296875,
-          "x": -0.16666412353515625,
-          "y": 246.1712646484375,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 104.99539184570312,
-          "layer": "",
-          "name": "Obstacle2",
-          "persistentUuid": "8e9f82c5-f99e-4d3b-93c8-cded586d967d",
-          "width": 102.639404296875,
-          "x": 102.47274017333984,
-          "y": 246,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 104.99539184570312,
-          "layer": "",
-          "name": "Obstacle2",
-          "persistentUuid": "9655030a-4680-4bdd-a69f-0b848da4f170",
-          "width": 102.639404296875,
-          "x": 204.7772674560547,
-          "y": 246.1712646484375,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 104.99539184570312,
-          "layer": "",
-          "name": "Obstacle2",
-          "persistentUuid": "dbc24ae8-3542-4140-b132-78359fa83b19",
-          "width": 102.639404296875,
-          "x": 307.4166564941406,
-          "y": 246,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 104.99539184570312,
-          "layer": "",
-          "name": "Obstacle2",
-          "persistentUuid": "dc5b5343-9dea-496b-b056-76b4ed2556f9",
-          "width": 102.639404296875,
-          "x": 512.360595703125,
-          "y": 246,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 104.99539184570312,
-          "layer": "",
-          "name": "Obstacle2",
-          "persistentUuid": "859bc0dc-43d2-4069-b389-c15bfbe97a6c",
-          "width": 102.639404296875,
-          "x": 409.72119140625,
-          "y": 246,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -534,7 +519,7 @@
               "type": "Health::Health",
               "Health": 100,
               "DamageCooldown": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 0,
               "IsJustDamaged": false,
               "CooldownActive": false
             },
@@ -562,6 +547,7 @@
               "masks": 1
             },
             {
+              "maxSpeed": 500,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "ignoreDefaultControls": true,
@@ -575,7 +561,6 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 0,
-              "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
@@ -769,7 +754,36 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
           "animations": [
             {
               "name": "hot1obs",
@@ -777,8 +791,513 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "timeBetweenFrames": 0.11110000312328339,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -787,6 +1306,2234 @@
         {
           "assetStoreId": "",
           "name": "Obstacle2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "hot1obs",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11110000312328339,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "hot1obs",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11110000312328339,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "hot1obs",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11110000312328339,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "hot1obs",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11110000312328339,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\lavaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 11.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.649999618530273
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.049999237060547
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle6",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -820,13 +3567,6 @@
               "gravityScale": 1,
               "layers": 1,
               "masks": 1
-            },
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -1170,13 +3910,42 @@
         },
         {
           "assetStoreId": "",
-          "name": "Obstacle3",
+          "name": "Obstacle7",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": false,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
           "animations": [
             {
               "name": "hot1obs",
@@ -1184,7 +3953,1520 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.08330000191926956,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\waterplatform9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 13.050000190734863
+                          },
+                          {
+                            "x": 31.799999237060547,
+                            "y": 19.950000762939453
+                          },
+                          {
+                            "x": 0,
+                            "y": 19.850000381469727
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle8",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "extraBorder": 100,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Obstacle3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle9",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Obstacle3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle10",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 100
+            },
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Kinematic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Obstacle3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sprites\\platforms\\magmaplatform9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 12.949999809265137
+                          },
+                          {
+                            "x": 32,
+                            "y": 19.75
+                          },
+                          {
+                            "x": 0,
+                            "y": 20.149999618530273
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Obstacle11",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 30
+            },
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "hot1obs",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08330000191926956,
                   "sprites": []
                 }
               ]
@@ -1193,30 +5475,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Obstacle4",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "hot1obs",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Obstacle5",
+          "name": "Obstacle12",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1340,7 +5599,7 @@
                 "Obstacle1",
                 "Physics2",
                 "=",
-                "150+ (TimerElapsedTime(\"scenet\")*20 )"
+                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
               ]
             },
             {
@@ -1348,10 +5607,10 @@
                 "value": "Physics2::LinearVelocityY"
               },
               "parameters": [
-                "Obstacle3",
+                "Obstacle8",
                 "Physics2",
                 "=",
-                "150+ (TimerElapsedTime(\"scenet\")*20 )"
+                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
               ]
             },
             {
@@ -1359,10 +5618,10 @@
                 "value": "Physics2::LinearVelocityY"
               },
               "parameters": [
-                "Obstacle2",
+                "Obstacle6",
                 "Physics2",
                 "=",
-                "150+ (TimerElapsedTime(\"scenet\")*20 )"
+                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
               ]
             },
             {
@@ -1370,10 +5629,10 @@
                 "value": "Physics2::LinearVelocityY"
               },
               "parameters": [
-                "Obstacle4",
+                "Obstacle11",
                 "Physics2",
                 "=",
-                "150+ (TimerElapsedTime(\"scenet\")*20 )"
+                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
               ]
             }
           ]
@@ -1538,9 +5797,74 @@
               "parameters": [
                 "",
                 "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,5))",
-                "100",
-                "100",
+                "\"Obstacle\"+ ToString(RandomInRange(1,12))",
+                "0",
+                "CameraBorderBottom()+100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "platform",
+                "\"Obstacle\"+ ToString(RandomInRange(1,12))",
+                "103",
+                "CameraBorderBottom()+100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "platform",
+                "\"Obstacle\"+ ToString(RandomInRange(1,12))",
+                "206",
+                "CameraBorderBottom()+100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "platform",
+                "\"Obstacle\"+ ToString(RandomInRange(1,12))",
+                "309",
+                "CameraBorderBottom()+100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "platform",
+                "\"Obstacle\"+ ToString(RandomInRange(1,12))",
+                "412",
+                "CameraBorderBottom()+100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "platform",
+                "\"Obstacle\"+ ToString(RandomInRange(1,12))",
+                "515",
+                "CameraBorderBottom()+100",
                 ""
               ]
             },
@@ -1549,7 +5873,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Obstacle5",
+                "Obstacle11",
                 "=",
                 "103/32"
               ]
@@ -1559,7 +5883,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Obstacle2",
+                "Obstacle6",
                 "=",
                 "103/32"
               ]
@@ -1579,17 +5903,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Obstacle3",
-                "=",
-                "103/32"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle4",
+                "Obstacle8",
                 "=",
                 "103/32"
               ]
