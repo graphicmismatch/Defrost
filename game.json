@@ -603,7 +603,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5013021141147231,
+        "zoomFactor": 1.7981021141147226,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5404,7 +5404,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Game start",
+          "name": "Start",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5471,6 +5471,15 @@
                     "=",
                     "13"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -5478,466 +5487,793 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Updates",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle1",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle1",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle2",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle3",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle4",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle5",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle6",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle7",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle8",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Obstacle9",
+                    "Physics2",
+                    "=",
+                    "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "NewParticlesEmitter",
+                    "=",
+                    "Player.CenterX()",
+                    "=",
+                    "Player.CenterY()-10"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle2",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::RepeatTimer::Repeat"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "RepeatTimer",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "platform",
+                    "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
+                    "0",
+                    "CameraBorderBottom()+100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "platform",
+                    "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
+                    "103",
+                    "CameraBorderBottom()+100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "platform",
+                    "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
+                    "206",
+                    "CameraBorderBottom()+100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "platform",
+                    "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
+                    "309",
+                    "CameraBorderBottom()+100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "platform",
+                    "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
+                    "412",
+                    "CameraBorderBottom()+100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "platform",
+                    "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
+                    "515",
+                    "CameraBorderBottom()+100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle1",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle2",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle3",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle4",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle5",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle6",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle7",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle8",
+                    "=",
+                    "103/32.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Obstacle9",
+                    "=",
+                    "103/32.1"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle3",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle4",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle5",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle6",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle7",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle8",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Obstacle9",
-                "Physics2",
-                "=",
-                "-(150+ (TimerElapsedTime(\"scenet\")*20 ))"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "NewParticlesEmitter",
-                "=",
-                "Player.CenterX()",
-                "=",
-                "Player.CenterY()-10"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio\\fx\\melt.wav",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PlayerMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "a"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "NumpadLeft"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Player",
+                    "-150",
+                    "-20"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "d"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "NumpadRight"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Player",
+                    "150",
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "d"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateRightKey"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "150",
-                "20"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "a"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateLeftKey"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "-150",
-                "-20"
-              ]
-            }
-          ]
         },
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Collisions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle2",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle4",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "(Player.Health::Health()/100)*3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle6",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle7",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Heal"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "15",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "(Player.Health::Health()/100)*3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle8",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Obstacle9",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "Player.Health::Health()+1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "(Player.Health::Health()/100)*3"
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Obstacle",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "Player",
-                "Health",
-                "10",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "(Player.Health::Health()/100)*3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "audio\\fx\\melt.wav",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "RepeatEveryXSeconds::RepeatTimer::Repeat"
-              },
-              "parameters": [
-                "Spawner",
-                "RepeatTimer",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
-                "0",
-                "CameraBorderBottom()+100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
-                "103",
-                "CameraBorderBottom()+100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
-                "206",
-                "CameraBorderBottom()+100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
-                "309",
-                "CameraBorderBottom()+100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
-                "412",
-                "CameraBorderBottom()+100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "platform",
-                "\"Obstacle\"+ ToString(RandomInRange(1,Variable(max)))",
-                "515",
-                "CameraBorderBottom()+100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle1",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle2",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle3",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle4",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle5",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle6",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle7",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle8",
-                "=",
-                "103/32.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Obstacle9",
-                "=",
-                "103/32.1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
