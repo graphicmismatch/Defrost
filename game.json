@@ -737,21 +737,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 58,
-          "layer": "",
-          "name": "StartText",
-          "persistentUuid": "7acba100-1dd7-4555-beba-7488d9c791c4",
-          "width": 107,
-          "x": 282,
-          "y": 544,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
