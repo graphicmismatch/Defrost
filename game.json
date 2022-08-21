@@ -581,6 +581,16 @@
         "name": "sprites\\platforms\\cutscene\\cutscene23-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "gameoverfx.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gameoverfx.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -612,7 +622,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7981021141147226,
+        "zoomFactor": 0.5027492601012797,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5461,18 +5471,6 @@
                 },
                 {
                   "type": {
-                    "value": "PlayMusic"
-                  },
-                  "parameters": [
-                    "",
-                    "audio\\bgm\\bgmfinal.wav",
-                    "yes",
-                    "80\n",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ModVarScene"
                   },
                   "parameters": [
@@ -5489,6 +5487,19 @@
                     "",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "audio\\bgm\\bgmfinal.wav",
+                    "1",
+                    "yes",
+                    "80",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -5500,7 +5511,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Updates",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5842,6 +5852,45 @@
                 },
                 {
                   "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ConeSprayAngle"
+                  },
+                  "parameters": [
+                    "NewParticlesEmitter",
+                    "=",
+                    "360"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "gameoverfx.wav",
+                    "",
+                    "80",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.9"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangeTimeScale"
                   },
                   "parameters": [
@@ -5859,7 +5908,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlayerMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5994,7 +6042,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Collisions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7038,6 +7085,63 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6024754223912948,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 2,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597132097,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
