@@ -7135,8 +7135,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "main_32menu",
+      "name": "main menu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
