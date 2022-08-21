@@ -7678,7 +7678,7 @@
               "parameters": [
                 "",
                 "\"abd768d9-05b2-4ef2-8fdb-35dc78e950af\"",
-                "GlobalVariable(highscore)",
+                "GlobalVariable(hs)",
                 "Username.Text()"
               ]
             }
