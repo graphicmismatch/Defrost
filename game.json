@@ -596,8 +596,27 @@
         "file": "font/game.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "font/game.ttf",
+        "name": "font\\game.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-1.png",
+        "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "audio/fx/select.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\fx\\select.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -694,6 +713,21 @@
           "x": 300,
           "y": 100,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "name": "StartText",
+          "persistentUuid": "7acba100-1dd7-4555-beba-7488d9c791c4",
+          "width": 107,
+          "x": 282,
+          "y": 544,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -808,7 +842,7 @@
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
-              "DamageCooldown": 0.1,
+              "DamageCooldown": 0,
               "MaxHealth": 0,
               "IsJustDamaged": false,
               "CooldownActive": false
@@ -5420,19 +5454,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Elements to be implemented at the start of the game itself",
-              "comment2": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5520,19 +5541,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Randomization of obstacles, speeding up the game, player death state.",
-              "comment2": ""
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -5931,19 +5939,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Navigate the course",
-              "comment2": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6077,19 +6072,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Melt the ice cube when it encounters a hot object, and heal it if it encounters a cool one. ",
-              "comment2": ""
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7038,266 +7020,6 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "gameOver2",
-      "name": "gameOver2",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6599999999999997,
-        "windowMask": false
-      },
-      "objectsGroups": [
-        {
-          "name": "Group",
-          "objects": []
-        }
-      ],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 989,
-          "layer": "",
-          "name": "bg",
-          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
-          "width": 981,
-          "x": -192,
-          "y": -192,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 230,
-          "layer": "",
-          "name": "NewBBText",
-          "persistentUuid": "fd9fc755-34f7-4611-a189-d264832cd26e",
-          "width": 767,
-          "x": 54,
-          "y": 84,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewBBText2",
-          "persistentUuid": "0b532fe0-d057-49d3-86db-169757ef1981",
-          "width": 0,
-          "x": 226,
-          "y": 241,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "name": "NewBBText3",
-          "persistentUuid": "90959171-ef16-4926-956a-8b5822dc322e",
-          "width": 198,
-          "x": 215,
-          "y": 318,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "bg",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "cutscene23",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\platforms\\cutscene\\cutscene23-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewBBText",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "TiltShift",
-              "name": "Effect",
-              "doubleParameters": {
-                "blur": 30,
-                "gradientBlur": 1000
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "button",
-              "type": "MouseHelper::button"
-            }
-          ],
-          "content": {
-            "text": "Game Over",
-            "opacity": 255,
-            "fontSize": 80,
-            "visible": true,
-            "color": "230;17;17",
-            "fontFamily": "font/game.ttf",
-            "align": "center",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewBBText2",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "button",
-              "type": "MouseHelper::button"
-            }
-          ],
-          "content": {
-            "text": "RESTART",
-            "opacity": 255,
-            "fontSize": 30,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "font/game.ttf",
-            "align": "left",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewBBText3",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "MAIN MENU",
-            "opacity": 500,
-            "fontSize": 30,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "font/game.ttf",
-            "align": "center",
-            "wordWrap": true
-          }
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseHelper::button::isClicked"
-              },
-              "parameters": [
-                "NewBBText",
-                "button",
-                ""
-              ]
-            }
-          ],
-          "actions": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
       "behaviorsSharedData": [
         {
           "name": "button",
@@ -7328,43 +7050,23 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.51,
-        "windowMask": true
+        "zoomFactor": 0.6599999999999997,
+        "windowMask": false
       },
-      "objectsGroups": [
-        {
-          "name": "Group",
-          "objects": []
-        }
-      ],
+      "objectsGroups": [],
       "variables": [],
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "height": 989,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "bg",
           "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
-          "width": 981,
-          "x": -192,
-          "y": -192,
+          "width": 0,
+          "x": -182,
+          "y": -159,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 230,
-          "layer": "",
-          "name": "NewBBText",
-          "persistentUuid": "fd9fc755-34f7-4611-a189-d264832cd26e",
-          "width": 767,
-          "x": 54,
-          "y": 84,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7374,11 +7076,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewBBText2",
-          "persistentUuid": "0b532fe0-d057-49d3-86db-169757ef1981",
+          "name": "restart",
+          "persistentUuid": "e7e1f6a9-d01c-4b92-86b5-7bf595a36f79",
           "width": 0,
-          "x": 226,
-          "y": 241,
+          "x": 234,
+          "y": 227,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7386,15 +7088,30 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 64,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "NewBBText3",
-          "persistentUuid": "90959171-ef16-4926-956a-8b5822dc322e",
-          "width": 198,
-          "x": 215,
-          "y": 318,
+          "name": "MainMenu",
+          "persistentUuid": "71c6c982-f810-4d65-843e-2eaea83133dc",
+          "width": 0,
+          "x": 212,
+          "y": 307,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 134,
+          "layer": "",
+          "name": "gameover",
+          "persistentUuid": "b9a489b4-a7a8-431f-b0a3-af94a8cf5249",
+          "width": 521,
+          "x": 61,
+          "y": 75,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7444,42 +7161,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewBBText",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "TiltShift",
-              "name": "Effect",
-              "doubleParameters": {
-                "blur": 30,
-                "gradientBlur": 1000
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "button",
-              "type": "MouseHelper::button"
-            }
-          ],
-          "content": {
-            "text": "Game Over",
-            "opacity": 255,
-            "fontSize": 80,
-            "visible": true,
-            "color": "230;17;17",
-            "fontFamily": "font/game.ttf",
-            "align": "center",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "NewBBText2",
+          "name": "restart",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [],
@@ -7496,32 +7178,84 @@
             "fontSize": 30,
             "visible": true,
             "color": "0;0;0",
-            "fontFamily": "font/game.ttf",
+            "fontFamily": "font\\game.ttf",
             "align": "left",
             "wordWrap": true
           }
         },
         {
           "assetStoreId": "",
-          "name": "NewBBText3",
+          "name": "MainMenu",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
           "content": {
             "text": "MAIN MENU",
-            "opacity": 500,
+            "opacity": 255,
             "fontSize": 30,
             "visible": true,
             "color": "0;0;0",
-            "fontFamily": "font/game.ttf",
+            "fontFamily": "font\\game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "gameover",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "RGBSplit",
+              "name": "Effect",
+              "doubleParameters": {
+                "blueX": 0,
+                "blueY": 10,
+                "greenX": 0,
+                "greenY": 0,
+                "redX": -10,
+                "redY": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "content": {
+            "text": "Game Over",
+            "opacity": 255,
+            "fontSize": 80,
+            "visible": true,
+            "color": "230;17;17",
+            "fontFamily": "font\\game.ttf",
             "align": "center",
             "wordWrap": true
           }
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Game Over screen having 'restart'  and 'main menu' options. ",
+          "comment2": ""
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -7530,12 +7264,93 @@
                 "value": "MouseHelper::button::isClicked"
               },
               "parameters": [
-                "NewBBText",
+                "restart",
                 "button",
                 ""
               ]
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio\\fx\\select.wav",
+                "",
+                "10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.07"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"cutscene\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseHelper::button::isClicked"
+              },
+              "parameters": [
+                "MainMenu",
+                "button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio\\fx\\select.wav",
+                "",
+                "10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.07"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"main menu\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         }
       ],
@@ -7573,8 +7388,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "main_32menu",
+      "name": "main menu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -7593,14 +7408,243 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6024754223912948,
+        "zoomFactor": 0.5978117816458453,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 122,
+          "layer": "",
+          "name": "TheQuickBrownFoxJumpsOverTheLazyDog",
+          "persistentUuid": "90bd1fdc-41db-4282-9595-fdf4bd56c422",
+          "width": 506,
+          "x": 129,
+          "y": 41,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "start",
+          "persistentUuid": "f87ca6d2-1a15-4fb7-bece-f81d72652740",
+          "width": 0,
+          "x": 238,
+          "y": 156,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "",
+          "name": "lb",
+          "persistentUuid": "f6dd743a-6457-42e3-aee5-52885b395ea9",
+          "width": 274,
+          "x": 184,
+          "y": 243,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "d827cca6-1afa-4566-866d-d2c087ffa7a0",
+          "width": 0,
+          "x": -168,
+          "y": -140,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "TheQuickBrownFoxJumpsOverTheLazyDog",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [
+            {
+              "folded": true,
+              "name": "Variable",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "MAIN MENU",
+            "opacity": 255,
+            "fontSize": 60,
+            "visible": true,
+            "color": "208;2;27",
+            "fontFamily": "font\\game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "start",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "START",
+            "opacity": 255,
+            "fontSize": 40,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font\\game.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "lb",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "ADD SCORE",
+            "opacity": 255,
+            "fontSize": 40,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font\\game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseHelper::button::isClicked"
+              },
+              "parameters": [
+                "start",
+                "button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio\\fx\\select.wav",
+                "",
+                "10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.07"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"cutscene\""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 2,
@@ -7625,7 +7669,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "button",
+          "type": "MouseHelper::button"
+        }
+      ]
     }
   ],
   "externalEvents": [],
