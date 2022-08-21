@@ -607,6 +607,16 @@
         "name": "NewSprite-1-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "audio/fx/select.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\fx\\select.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5431,6 +5441,25 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "score",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[outline=yellow]000[/outline] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -7020,6 +7049,121 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "addtolb",
+      "name": "addtolb",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6599999999999997,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "bg",
+          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "width": 0,
+          "x": -184,
+          "y": -159,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "bg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cutscene23",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\platforms\\cutscene\\cutscene23-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "gameOver",
       "name": "gameOver",
       "oglFOV": 90,
@@ -7166,11 +7310,11 @@
           "customSize": true,
           "height": 122,
           "layer": "",
-          "name": "TheQuickBrownFoxJumpsOverTheLazyDog",
+          "name": "Title",
           "persistentUuid": "90bd1fdc-41db-4282-9595-fdf4bd56c422",
-          "width": 506,
-          "x": 129,
-          "y": 41,
+          "width": 396,
+          "x": 107,
+          "y": 4,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7181,7 +7325,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewBBText",
+          "name": "start",
           "persistentUuid": "f87ca6d2-1a15-4fb7-bece-f81d72652740",
           "width": 0,
           "x": 238,
@@ -7194,13 +7338,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 168,
+          "height": 73,
           "layer": "",
-          "name": "NewBBText2",
+          "name": "addscore",
           "persistentUuid": "f6dd743a-6457-42e3-aee5-52885b395ea9",
-          "width": 403,
-          "x": 139,
-          "y": 255,
+          "width": 268,
+          "x": 178,
+          "y": 267,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7211,7 +7355,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewBBText3",
+          "name": "settings",
           "persistentUuid": "9e3486fa-e06a-45cb-b249-62391e756677",
           "width": 0,
           "x": 429,
@@ -7240,7 +7384,7 @@
       "objects": [
         {
           "assetStoreId": "",
-          "name": "TheQuickBrownFoxJumpsOverTheLazyDog",
+          "name": "Title",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [
@@ -7271,12 +7415,17 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewBBText",
+          "name": "start",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
           "content": {
             "text": "START",
             "opacity": 255,
@@ -7290,7 +7439,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewBBText2",
+          "name": "addscore",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [],
@@ -7302,7 +7451,7 @@
             }
           ],
           "content": {
-            "text": "ADD SCORE TO LEADERBOARD",
+            "text": "ADD SCORE ",
             "opacity": 255,
             "fontSize": 40,
             "visible": true,
@@ -7314,7 +7463,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewBBText3",
+          "name": "settings",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [],
@@ -7387,7 +7536,7 @@
                 "value": "MouseHelper::button::isClicked"
               },
               "parameters": [
-                "TheQuickBrownFoxJumpsOverTheLazyDog",
+                "start",
                 "button",
                 ""
               ]
@@ -7396,12 +7545,22 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "PlaySound"
               },
               "parameters": [
-                "TheQuickBrownFoxJumpsOverTheLazyDog",
-                "+",
-                "\"The Quick Brown Fox Jumps Over The Lazy Dog\""
+                "",
+                "audio\\fx\\select.wav",
+                "",
+                "10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.07"
               ]
             },
             {
@@ -7410,7 +7569,7 @@
               },
               "parameters": [
                 "",
-                "\"Untitled scene\""
+                "\"cutscene\""
               ]
             }
           ]
@@ -7446,6 +7605,63 @@
           "type": "MouseHelper::button"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 6757440,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
