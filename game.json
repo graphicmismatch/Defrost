@@ -591,6 +591,13 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "font/game.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "font/game.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -687,21 +694,6 @@
           "x": 300,
           "y": 100,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 58,
-          "layer": "",
-          "name": "StartText",
-          "persistentUuid": "7acba100-1dd7-4555-beba-7488d9c791c4",
-          "width": 107,
-          "x": 282,
-          "y": 544,
-          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -816,7 +808,7 @@
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
-              "DamageCooldown": 0,
+              "DamageCooldown": 0.1,
               "MaxHealth": 0,
               "IsJustDamaged": false,
               "CooldownActive": false
@@ -5428,6 +5420,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Elements to be implemented at the start of the game itself",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5515,6 +5520,19 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Randomization of obstacles, speeding up the game, player death state.",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -5818,6 +5836,19 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Events occuring upon the death of the sprite. ",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5897,6 +5928,15 @@
                     "",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"gameOver\""
+                  ]
                 }
               ]
             }
@@ -5912,6 +5952,19 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Navigate the course",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6046,6 +6099,19 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Melt the ice cube when it encounters a hot object, and heal it if it encounters a cool one. ",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6933,6 +6999,19 @@
       ],
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "To play our initial animation at the start of the game",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6963,6 +7042,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -7017,20 +7101,70 @@
         "zoomFactor": 0.6599999999999997,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Group",
+          "objects": []
+        }
+      ],
       "variables": [],
       "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 989,
+          "layer": "",
+          "name": "bg",
+          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "width": 981,
+          "x": -192,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 134,
+          "layer": "",
+          "name": "NewBBText",
+          "persistentUuid": "fd9fc755-34f7-4611-a189-d264832cd26e",
+          "width": 521,
+          "x": 63,
+          "y": 125,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
         {
           "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "bg",
-          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "name": "restart",
+          "persistentUuid": "0b532fe0-d057-49d3-86db-169757ef1981",
           "width": 0,
-          "x": -182,
-          "y": -159,
-          "zOrder": 1,
+          "x": 226,
+          "y": 236,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "NewBBText3",
+          "persistentUuid": "90959171-ef16-4926-956a-8b5822dc322e",
+          "width": 198,
+          "x": 211,
+          "y": 318,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7077,9 +7211,151 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "RGBSplit",
+              "name": "Effect",
+              "doubleParameters": {
+                "blueX": 0,
+                "blueY": 10,
+                "greenX": 0,
+                "greenY": 0,
+                "redX": -10,
+                "redY": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "Game Over",
+            "opacity": 255,
+            "fontSize": 80,
+            "visible": true,
+            "color": "230;17;17",
+            "fontFamily": "font/game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "restart",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "RESTART",
+            "opacity": 255,
+            "fontSize": 30,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font/game.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText3",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "MAIN MENU",
+            "opacity": 500,
+            "fontSize": 30,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font/game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Game Over screen having 'restart'  and 'main menu' options. ",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseHelper::button::isClicked"
+              },
+              "parameters": [
+                "restart",
+                "button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "10",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.07"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"cutscene\""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 0,
@@ -7104,7 +7380,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "button",
+          "type": "MouseHelper::button"
+        }
+      ]
     },
     {
       "b": 209,
@@ -7166,6 +7447,322 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Lim98SE",
+      "category": "",
+      "description": "This extension provide two behaviors:\n\n- Turn object into cursor\nMake the object as the new cursor\n\n- Clickable button \nProvide a new condition on the object for fast checking is this one has been clicked.",
+      "extensionNamespace": "",
+      "fullName": "Mouse Helper",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTYsMjlMMTYsMjljLTUsMC05LTQtOS05VjljMC0zLjMsMi43LTYsNi02aDZjMy4zLDAsNiwyLjcsNiw2djExQzI1LDI1LDIxLDI5LDE2LDI5eiIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjE2IiB5MT0iMyIgeDI9IjE2IiB5Mj0iOCIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTE2LDE1TDE2LDE1Yy0xLjEsMC0yLTAuOS0yLTJ2LTNjMC0xLjEsMC45LTIsMi0yaDBjMS4xLDAsMiwwLjksMiwydjNDMTgsMTQuMSwxNy4xLDE1LDE2LDE1eiIvPg0KPC9zdmc+DQo=",
+      "name": "MouseHelper",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_wireless.svg",
+      "shortDescription": "Check if a sprite has been clicked and turn any objects into a cursor.",
+      "version": "1.0.0",
+      "origin": {
+        "identifier": "MouseHelper",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "mouse",
+        "cursor"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "An easy way to turn any object into a mouse cursor.",
+          "fullName": "Turn sprite into cursor",
+          "name": "cursor",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "doStepPreEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CacheSouris"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "MouseX()",
+                        "=",
+                        "MouseY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "MouseHelper::cursor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "onActivate",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CacheSouris"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "MouseHelper::cursor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "onDeActivate",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MontreSouris"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "MouseHelper::cursor",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": []
+        },
+        {
+          "description": "Turns any object into a button, useful to know if it has been clicked with a simple object condition.",
+          "fullName": "Clickable button ",
+          "name": "button",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Check if the object is clicked.",
+              "fullName": "Is Clicked?",
+              "functionType": "Condition",
+              "group": "",
+              "name": "isClicked",
+              "private": false,
+              "sentence": "_PARAM0_ is clicked",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "MouseHelper::button",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": []
+        }
+      ]
+    },
     {
       "author": "VegeTato, arthuro555",
       "category": "",
