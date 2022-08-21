@@ -596,26 +596,7 @@
         "file": "font/game.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "font\\game.ttf",
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "audio/fx/select.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "audio\\fx\\select.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "font/game.ttf",
         "userAdded": true
       }
     ],
@@ -713,21 +694,6 @@
           "x": 300,
           "y": 100,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 58,
-          "layer": "",
-          "name": "StartText",
-          "persistentUuid": "7acba100-1dd7-4555-beba-7488d9c791c4",
-          "width": 107,
-          "x": 282,
-          "y": 544,
-          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -842,7 +808,7 @@
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
-              "DamageCooldown": 0,
+              "DamageCooldown": 0.1,
               "MaxHealth": 0,
               "IsJustDamaged": false,
               "CooldownActive": false
@@ -5441,25 +5407,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "name": "score",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "[outline=yellow]000[/outline] ",
-            "opacity": 255,
-            "fontSize": 20,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "Arial",
-            "align": "left",
-            "wordWrap": true
-          }
         }
       ],
       "events": [
@@ -5472,6 +5419,19 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Elements to be implemented at the start of the game itself",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5560,6 +5520,19 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Randomization of obstacles, speeding up the game, player death state.",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -5958,6 +5931,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Navigate the course",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6091,6 +6077,19 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Melt the ice cube when it encounters a hot object, and heal it if it encounters a cool one. ",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7039,18 +7038,13 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": [
-        {
-          "name": "button",
-          "type": "MouseHelper::button"
-        }
-      ]
+      "behaviorsSharedData": []
     },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "addtolb",
-      "name": "addtolb",
+      "mangledName": "gameOver2",
+      "name": "gameOver2",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -7072,20 +7066,70 @@
         "zoomFactor": 0.6599999999999997,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Group",
+          "objects": []
+        }
+      ],
       "variables": [],
       "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 989,
+          "layer": "",
+          "name": "bg",
+          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "width": 981,
+          "x": -192,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 230,
+          "layer": "",
+          "name": "NewBBText",
+          "persistentUuid": "fd9fc755-34f7-4611-a189-d264832cd26e",
+          "width": 767,
+          "x": 54,
+          "y": 84,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
         {
           "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "bg",
-          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "name": "NewBBText2",
+          "persistentUuid": "0b532fe0-d057-49d3-86db-169757ef1981",
           "width": 0,
-          "x": -184,
-          "y": -159,
-          "zOrder": 1,
+          "x": 226,
+          "y": 241,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "NewBBText3",
+          "persistentUuid": "90959171-ef16-4926-956a-8b5822dc322e",
+          "width": 198,
+          "x": 215,
+          "y": 318,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7132,9 +7176,104 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "TiltShift",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 30,
+                "gradientBlur": 1000
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "Game Over",
+            "opacity": 255,
+            "fontSize": 80,
+            "visible": true,
+            "color": "230;17;17",
+            "fontFamily": "font/game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText2",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "button",
+              "type": "MouseHelper::button"
+            }
+          ],
+          "content": {
+            "text": "RESTART",
+            "opacity": 255,
+            "fontSize": 30,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font/game.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText3",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "MAIN MENU",
+            "opacity": 500,
+            "fontSize": 30,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font/game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseHelper::button::isClicked"
+              },
+              "parameters": [
+                "NewBBText",
+                "button",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 0,
@@ -7159,7 +7298,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "button",
+          "type": "MouseHelper::button"
+        }
+      ]
     },
     {
       "b": 209,
@@ -7184,23 +7328,73 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6599999999999997,
-        "windowMask": false
+        "zoomFactor": 0.51,
+        "windowMask": true
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Group",
+          "objects": []
+        }
+      ],
       "variables": [],
       "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 989,
+          "layer": "",
+          "name": "bg",
+          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "width": 981,
+          "x": -192,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 230,
+          "layer": "",
+          "name": "NewBBText",
+          "persistentUuid": "fd9fc755-34f7-4611-a189-d264832cd26e",
+          "width": 767,
+          "x": 54,
+          "y": 84,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
         {
           "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "bg",
-          "persistentUuid": "aae6ce85-0f9d-4c4f-8feb-7480ee415128",
+          "name": "NewBBText2",
+          "persistentUuid": "0b532fe0-d057-49d3-86db-169757ef1981",
           "width": 0,
-          "x": -182,
-          "y": -159,
-          "zOrder": 1,
+          "x": 226,
+          "y": 241,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "NewBBText3",
+          "persistentUuid": "90959171-ef16-4926-956a-8b5822dc322e",
+          "width": 198,
+          "x": 215,
+          "y": 318,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7247,155 +7441,25 @@
               ]
             }
           ]
-        }
-      ],
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "main_32menu",
-      "name": "main menu",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.5978117816458453,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 122,
-          "layer": "",
-          "name": "Title",
-          "persistentUuid": "90bd1fdc-41db-4282-9595-fdf4bd56c422",
-          "width": 396,
-          "x": 107,
-          "y": 4,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "start",
-          "persistentUuid": "f87ca6d2-1a15-4fb7-bece-f81d72652740",
-          "width": 0,
-          "x": 238,
-          "y": 156,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 73,
-          "layer": "",
-          "name": "addscore",
-          "persistentUuid": "f6dd743a-6457-42e3-aee5-52885b395ea9",
-          "width": 268,
-          "x": 178,
-          "y": 267,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "settings",
-          "persistentUuid": "9e3486fa-e06a-45cb-b249-62391e756677",
-          "width": 0,
-          "x": 429,
-          "y": 556,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "d827cca6-1afa-4566-866d-d2c087ffa7a0",
-          "width": 0,
-          "x": -168,
-          "y": -140,
-          "zOrder": -3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
         {
           "assetStoreId": "",
-          "name": "Title",
+          "name": "NewBBText",
           "tags": "",
           "type": "BBText::BBText",
-          "variables": [
+          "variables": [],
+          "effects": [
             {
-              "folded": true,
-              "name": "Variable",
-              "type": "string",
-              "value": ""
+              "effectType": "TiltShift",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 30,
+                "gradientBlur": 1000
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ],
-          "effects": [],
           "behaviors": [
             {
               "name": "button",
@@ -7403,19 +7467,19 @@
             }
           ],
           "content": {
-            "text": "MAIN MENU",
+            "text": "Game Over",
             "opacity": 255,
-            "fontSize": 60,
+            "fontSize": 80,
             "visible": true,
-            "color": "208;2;27",
-            "fontFamily": "font\\game.ttf",
+            "color": "230;17;17",
+            "fontFamily": "font/game.ttf",
             "align": "center",
             "wordWrap": true
           }
         },
         {
           "assetStoreId": "",
-          "name": "start",
+          "name": "NewBBText2",
           "tags": "",
           "type": "BBText::BBText",
           "variables": [],
@@ -7427,104 +7491,34 @@
             }
           ],
           "content": {
-            "text": "START",
-            "opacity": 255,
-            "fontSize": 40,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "font\\game.ttf",
-            "align": "left",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "addscore",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "button",
-              "type": "MouseHelper::button"
-            }
-          ],
-          "content": {
-            "text": "ADD SCORE ",
-            "opacity": 255,
-            "fontSize": 40,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "font\\game.ttf",
-            "align": "center",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "settings",
-          "tags": "",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "button",
-              "type": "MouseHelper::button"
-            }
-          ],
-          "content": {
-            "text": "SETTINGS",
+            "text": "RESTART",
             "opacity": 255,
             "fontSize": 30,
             "visible": true,
-            "color": "139;87;42",
-            "fontFamily": "font\\game.ttf",
+            "color": "0;0;0",
+            "fontFamily": "font/game.ttf",
             "align": "left",
             "wordWrap": true
           }
         },
         {
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "NewBBText3",
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "BBText::BBText",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "content": {
+            "text": "MAIN MENU",
+            "opacity": 500,
+            "fontSize": 30,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "font/game.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -7536,50 +7530,20 @@
                 "value": "MouseHelper::button::isClicked"
               },
               "parameters": [
-                "start",
+                "NewBBText",
                 "button",
                 ""
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "audio\\fx\\select.wav",
-                "",
-                "10",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.07"
-              ]
-            },
-            {
-              "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"cutscene\""
-              ]
-            }
-          ]
+          "actions": []
         }
       ],
       "layers": [
         {
-          "ambientLightColorB": 2,
-          "ambientLightColorG": 134217728,
-          "ambientLightColorR": 1597132097,
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
@@ -7629,7 +7593,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.6024754223912948,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7639,9 +7603,9 @@
       "events": [],
       "layers": [
         {
-          "ambientLightColorB": 6757440,
-          "ambientLightColorG": 150995054,
-          "ambientLightColorR": 1869182049,
+          "ambientLightColorB": 2,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597132097,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
