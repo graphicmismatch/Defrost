@@ -23,7 +23,7 @@
     "author": "",
     "windowWidth": 615,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\ripti\\Documents\\GDevelop projects\\Builds\\Defrost",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -55,7 +55,7 @@
       "ios-icon-76": "",
       "ios-icon-80": "",
       "ios-icon-87": "",
-      "liluo-thumbnail": "sprites\\logo.png"
+      "liluo-thumbnail": "sprites\\cvpg.png"
     },
     "loadingScreen": {
       "backgroundColor": 0,
@@ -675,6 +675,15 @@
         "name": "sprites\\logo.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/cvpg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\cvpg.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -706,7 +715,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5227492601012798,
+        "zoomFactor": 0.042749260101279565,
         "windowMask": false
       },
       "objectsGroups": [
@@ -748,13 +757,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1216,
+          "height": 10393,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "d1b0af4e-f545-4891-89ea-99dd37ce39fc",
           "width": 1189,
           "x": -260,
-          "y": -342,
+          "y": -4953,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
