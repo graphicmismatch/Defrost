@@ -18,8 +18,8 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Codeday",
-    "description": "",
+    "name": "Defrost",
+    "description": "Dodge fiery obstacles with your 'ice cube avatar' before it melts! The Water platform heals you while the Lava melts you. Magma means instant destruction!",
     "author": "",
     "windowWidth": 615,
     "windowHeight": 600,
@@ -27,7 +27,36 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "sprites\\logo.png"
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -44,9 +73,20 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
-    "categories": [],
-    "playableDevices": [],
+    "authorIds": [
+      "oIXombGFTTbKnxoh4cvSzeKqsw13",
+      "kmnRCoRG9QNUWvGISk1jN4EKNfC3",
+      "Oc2YLkK6qIaiWnWFFyE4VEF8DX32",
+      "EIhABWilbPc6LeoJuDQQ6ocVDMF2"
+    ],
+    "categories": [
+      "survival",
+      "leaderboard"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -666,7 +706,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7027492601012799,
+        "zoomFactor": 0.5227492601012798,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6039,35 +6079,69 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "BuiltinCommonInstructions::And"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "SystemInfo::IsMobile"
                       },
-                      "parameters": [
-                        "",
-                        "a"
-                      ]
+                      "parameters": []
                     },
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "NumpadLeft"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "a"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "MouseButtonPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MouseX"
+                              },
+                              "parameters": [
+                                "",
+                                "<",
+                                "CameraWidth()/2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -6100,35 +6174,221 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "BuiltinCommonInstructions::And"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "SystemInfo::IsMobile"
                       },
-                      "parameters": [
-                        "",
-                        "d"
-                      ]
+                      "parameters": []
                     },
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "Right"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "d"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Right"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "MouseButtonPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MouseX"
+                              },
+                              "parameters": [
+                                "",
+                                ">",
+                                "CameraWidth()/2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
                       ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Player",
+                    "150",
+                    "-20"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": []
                     },
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "",
-                        "NumpadRight"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "a"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "NumpadLeft"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Player",
+                    "-150",
+                    "-20"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "d"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Right"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "NumpadRight"
+                          ]
+                        }
                       ]
                     }
                   ]
